@@ -9,9 +9,9 @@ Set environment variables via `.env` or your shell. The following example `.env`
 
 ```env
 DATABASE_URL=postgres://tau:tau@localhost:5432/tau
-SECRET=<losowy-ciag-min-32-znaki>
-DOCKER_DB_ROOT_PASSWORD=<silne-haslo-root>
-DOCKER_DB_PASSWORD=<silne-haslo-aplikacji>
+SECRET=<random-string-at-least-32-chars>
+DOCKER_DB_ROOT_PASSWORD=<strong-root-password>
+DOCKER_DB_PASSWORD=<strong-app-password>
 FRONTEND_ORIGIN=https://example.com
 PORT=2023
 ```
