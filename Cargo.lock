@@ -3188,7 +3188,7 @@ dependencies = [
 
 [[package]]
 name = "tau"
-version = "0.1.21"
+version = "0.1.22"
 dependencies = [
  "argon2",
  "aws-lc-rs",
